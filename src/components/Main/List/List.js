@@ -10,13 +10,13 @@ import {
   Slide,
 } from '@material-ui/core'
 import { Delete, MoneyOff } from '@material-ui/icons'
-import { ExpenseTrackerContext } from '../../../Context/context'
 
+import { ExpenseTrackerContext } from '../../../context/context'
 import useStyles from './styles'
 
 const List = () => {
   const classes = useStyles()
-  const { deleteTransaction, transaction } = useContext(ExpenseTrackerContext)
+  const { transactions, deleteTransaction } = useContext(ExpenseTrackerContext)
 
   return (
     <MUIList dense={false} className={classes.list}>

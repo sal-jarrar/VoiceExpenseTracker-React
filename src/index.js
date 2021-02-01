@@ -6,7 +6,7 @@ import { SpeechProvider } from '@speechly/react-client'
 import './index.css'
 
 ReactDOM.render(
-  <SpeechProvider appId='7c4aee08-1073-4a32-b862-ebe1850e0732' language='en-US'>
+  <SpeechProvider appId='690e083a-c773-4bad-a3ad-0a6723b163d3' language='en-US'>
     <Provider>
       <App />
     </Provider>
